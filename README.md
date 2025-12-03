@@ -29,3 +29,5 @@ I am also an active member of the quantum community, serving as a **Quantum Comp
 ---
 
 Feel free to explore my repositories to see my work in action!
+<img src="https://komarev.com/ghpvc/?username=iarithik&color=ce9927&style=flat" alt="Profile Views" />
+
