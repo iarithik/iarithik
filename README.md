@@ -1,4 +1,4 @@
-👋 Hi, I'm [Rithik Rai](https://in.linkedin.com/in/iarithik) (iarithik)
+👋 Hi, I'm [Rithik Rai](https://in.linkedin.com/in/iarithik) (iarithik) - [(Link to CV)](https://flowcv.com/resume/prd61bomfe)
 
 I am a passionate and driven **Quantum Computing Fellow** and **Physics Master's graduate** with a strong foundation in theoretical physics and practical experience in quantum algorithm implementation. My work focuses on bridging the gap between fundamental physics and cutting-edge computational challenges, particularly in optimization and simulation.
 
