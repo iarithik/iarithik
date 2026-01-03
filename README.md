@@ -29,4 +29,6 @@ I am also an active member of the quantum community, serving as a **Quantum Comp
 ---
 
 Feel free to explore my repositories to see my work in action!
-![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fiarithik&label=Visitors&icon=heart-fill&color=%230d503c&message=&style=flat&tz=UTC)
+
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fiarithik&label=Visitors&icon=heart-fill&color=%23432874&message=&style=flat&tz=UTC)
+
