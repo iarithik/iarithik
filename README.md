@@ -29,5 +29,4 @@ I am also an active member of the quantum community, serving as a **Quantum Comp
 ---
 
 Feel free to explore my repositories to see my work in action!
-<img src="https://komarev.com/ghpvc/?username=iarithik&color=ce9927&style=flat" alt="Profile Views" />
-
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fiarithik&label=Visitors&icon=heart-fill&color=%230d503c&message=&style=flat&tz=UTC)
