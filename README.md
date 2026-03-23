@@ -54,7 +54,7 @@
 *   **[Optimising Battery Temperature for EVs](https://github.com/iarithik/Optimising-Battery-Temperature-for-Electric-Vehicles-Using-Quantum-Annealing)**
     *   Leveraged quantum annealing on D-Wave to optimize lithium-ion battery temperature management using NASA datasets, ultimately aiming to enhance State of Health (SoH) and extend battery life.
 *   **[Quantum Chess](https://qchess.org/)**
-    *   Co-developing a quantum-mechanics-inspired variant of chess, based on the mathematical framework proposed in[arXiv:1906.05836](https://arxiv.org/abs/1906.05836).
+    *   Co-developing a quantum-mechanics-inspired variant of chess, based on the mathematical framework proposed in [arXiv:1906.05836](https://arxiv.org/abs/1906.05836).
 
 ### 📚 Learning Resources
 
