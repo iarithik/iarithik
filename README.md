@@ -58,8 +58,8 @@
 
 ### 📚 Learning Resources
 
-*   **PennyLane Codebook Solutions:** My personal solutions and learning notes covering quantum machine learning and quantum circuits using PennyLane. 
-*   **Classiq Solutions:** Explorations, tutorials, and classical/quantum algorithm solutions built while learning algorithm design via the Classiq platform.
+*   **[PennyLane Codebook Solutions:](https://github.com/iarithik/Notes-Pennylane)** My personal solutions and learning notes covering quantum machine learning and quantum circuits using PennyLane. 
+*   **[Classiq Solutions](https://github.com/iarithik/Notes-Classiqhttps://github.com/iarithik/Notes-Classiq):** Explorations, tutorials, and classical/quantum algorithm solutions built while learning algorithm design via the Classiq platform.
 
 ---
 
