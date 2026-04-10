@@ -47,19 +47,28 @@
 
 ### 🚀 Projects
 
-*   **[Girls in Quantum Hackathon](https://github.com/iarithik/Girls-In-Quantum-QHackathon)**
-    *   My official submission and code repository for the Girls in Quantum Hackathon.
-*   **[Quantum Walk and Monte Carlo Simulations](https://github.com/iarithik/Quantum-Walk)**
-    *   Explored classical vs. quantum simulations of the Galton Board. Utilized superposition by not resetting the ancilla qubit to successfully demonstrate interference effects.
-*   **[Optimising Battery Temperature for EVs](https://github.com/iarithik/Optimising-Battery-Temperature-for-Electric-Vehicles-Using-Quantum-Annealing)**
-    *   Leveraged quantum annealing on D-Wave to optimize lithium-ion battery temperature management using NASA datasets, ultimately aiming to enhance State of Health (SoH) and extend battery life.
-*   **[Quantum Chess](https://qchess.org/)**
-    *   Co-developing a quantum-mechanics-inspired variant of chess, based on the mathematical framework proposed in [arXiv:1906.05836](https://arxiv.org/abs/1906.05836).
-
+*   **[VQE Molecular Ground State Simulation for H2](https://github.com/iarithik/VQE-Molecular-GroundState-Sim)**\
+_*Independent Project*_
+    *   **Implementation:** Implemented a physics-informed Variational Quantum Eigensolver (VQE) using PennyLane, JAX, and Optax to calculate the ground-state energy of an H₂ molecule.
+    *   **Circuit Optimization:** Parameterized the ansatz by explicitly mapping to a minimal basis set (STO-3G) and restricting the search space to the singlet state ($m_s = 0$), avoiding black-box hardware-efficient ansatzes.
+    *   **Custom Training Loop:** Bypassed standard QML optimizers to construct a custom JIT-compiled Stochastic Gradient Descent loop with a strict convergence tolerance ($\Delta E \leq 10^{-6}$).
+*   **[Quantum Algorithm for Solving Linear Differential Equations (Harmonic Oscillator)](https://github.com/iarithik/Girls-In-Quantum-QHackathon)**\
+_[QHackathon 2026 (Classiq Track)](https://www.girlsinquantum.com/) | Team project of 3 members_
+    * **Implementation:** Translated a theoretical quantum algorithm ([Xin et al., 2020](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.032307)) into a working Classiq SDK model to solve the 2nd-order LDE of a Quantum Harmonic Oscillator using the Truncated Taylor Series (LCU) method. 
+    * **Energy Computation:** Mapped the time evolution of the system to a quantum circuit, successfully extracting the physical Kinetic and Potential Energies directly from the work qubit's measurement probabilities.
+    * **Circuit Optimisation:** Mathematically proved the redundancy of the routing ancilla qubit (a_1) for closed systems (b=0). By stripping this out of the synthesis model, reduced the circuit width by 25% and depth by ~50% compared to the original compiler.
+*   **[Quantum Walk — Galton Board Implementation](https://github.com/iarithik/Quantum-Walk)**\
+_*[Womanium & WISER Quantum Program 2025](https://www.thewiser.org/) | Team project of 3 members*_
+    *   **Implementation:** Implemented the Galton Board using quantum circuits based on ([Carney & Varcoe, 2022](https://arxiv.org/abs/2202.01735)); demonstrated how quantum interference produces a qualitatively different probability distribution from the classical case, with destructive interference creating a valley at the centre rather than the Gaussian peak.
+    *   **Research & Correction:** Identified and documented multiple discrepancies between the reference paper's stated derivations and the correct theoretical predictions for specific interference configurations; recorded corrections in a dedicated GitHub repository. See: [github.com/iarithik/Corrections-to-Universal-Statistical-Simulator-arXiv-2202.01735](https://github.com/iarithik/Corrections-to-Universal-Statistical-Simulator-arXiv-2202.01735)
+*   **[Optimising Battery Temperature for Electric Vehicles Using Quantum Annealing](https://github.com/iarithik/Optimising-Battery-Temperature-for-Electric-Vehicles-Using-Quantum-Annealing)**\
+_*[Womanium Global Quantum + AI Program 2024](https://www.womanium.org/) | Team project of 4 members*_
+    *   **Implementation:** Optimised battery temperature in lithium-ion EV batteries using quantum annealing to maintain State of Charge (SoC) and improve State of Health (SoH); processed NASA battery datasets, formulated the optimisation as a QUBO model, and implemented solutions on D-Wave's quantum annealer to minimise temperature.
+    
 ### 📚 Learning Resources
 
 *   **[PennyLane Codebook Solutions:](https://github.com/iarithik/Notes-Pennylane)** My personal solutions and learning notes covering quantum machine learning and quantum circuits using PennyLane. 
-*   **[Classiq Solutions](https://github.com/iarithik/Notes-Classiq):** Explorations, tutorials, and classical/quantum algorithm solutions built while learning algorithm design via the Classiq platform.
+*   **[Classiq Solutions:](https://github.com/iarithik/Notes-Classiq)** Explorations, tutorials, and classical/quantum algorithm solutions built while learning algorithm design via the Classiq platform.
 
 ---
 
